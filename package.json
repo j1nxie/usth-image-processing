@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"description": "",
 	"scripts": {
-		"start": "poetry run python image_processing/main.py",
+		"start": "poetry run python -m image_processing",
 		"lint": "poetry run isort . && poetry run black . && poetry run ruff . --fix --show-fixes"
 	}
 }
